@@ -7,8 +7,8 @@ Build
 -----
 `$ docker build . -t docker-steam`
 
-Use
----
+Use on a local machine
+----------------------
 
 Create once with:
 
@@ -30,4 +30,13 @@ Then run it each time with:
 
 ```
 $ docker start steam
+```
+
+Use as a Steam In-Home Streaming client
+---------------------------------------
+
+Go to the console tab then type:
+
+```
+connect_remote <HOST IP>
 ```
