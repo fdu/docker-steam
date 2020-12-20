@@ -17,4 +17,4 @@ RUN curl -L 'https://cdn.cloudflare.steamstatic.com/client/installer/steam.deb' 
 RUN dpkg -i /tmp/steam.deb
 USER $USER
 
-CMD steam
+CMD steam -console
